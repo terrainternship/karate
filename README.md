@@ -1,7 +1,7 @@
-# karate
+# karate/AndrejChamkin/
+- "MediaPipe обработка папок и сохранение точек.ipynb" обрабатывает видеофайл с помощью MediaPipe функцией Pose() и сохраняет координаты 33 точек в csv файл вместе с назвагниями папок и самого файла.
+- "MediaPipe обработка папок и сохранение точек v2.ipynb" обрабатывает видеофайл с помощью MediaPipe функцией Holistic() маской убирает фон, после обрабатывает функцией Pose() определяет 33 точки и сохраняет их в csv файл вместе с назвагниями папок и самого файла.
+- "MediaPipe_обработка_папок_и_сохранение_видео_с_точками.ipynb" обрабатывает видеофайл с помощью MediaPipe функцией Pose(), накладывает полуучившийся скелет на видео и сохраняет видеофайл на месте исходного.
+- MediaPipe_обработка_папок_и_сохранение_видео_с_точками_v2.ipynb, анологично предыдущего, но сначала изображение обрабатывается функцией Holistic() и маской убирает фон, а потом на полученное обрабатываеться функцией Pose(), ннаходяться точки и сохраняються на видео.
 
-Ссылка на ТЗ - https://docs.google.com/document/d/1VJ9NfcPgltPjabtHGbfPj8nl52J_UJKItTnvUNiiopk/edit?usp=share_link
 
-Ссылка на файл с идеями и экспериментами - https://docs.google.com/spreadsheets/d/1IAPl-RhwG8VbVuRae4RQWqpmqMAcHoZpD2yCSIxao8Y/edit?usp=sharing
-
-Ссылка на примерный план работы - https://docs.google.com/document/d/1TfjgrHKG2bhEF3XDRnwu-0HmDo5jN2HCghIZp8QYgmw/edit?usp=share_link
